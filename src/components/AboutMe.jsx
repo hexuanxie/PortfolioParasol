@@ -18,6 +18,7 @@ const StyledAboutMe = styled.section`
   }
 `;
 
+// Uncomment Line 37 if you would like your Github Bio to also show up in the about me page
 export default function AboutMe() {
   const { avatar_url, bio } = useSelector(selectData);
 
@@ -40,7 +41,7 @@ export default function AboutMe() {
             </Col>
             <Col className="d-none d-md-block text-center">
               <img
-                src={avatar_url}
+                src={avatar_url} // Can add a different image url here to use instead of Github Profile Picture: Use a String for the URL ("<URL HERE>")
                 alt="GitHub Avatar"
                 loading="lazy"
                 className="mx-auto rounded-circle"

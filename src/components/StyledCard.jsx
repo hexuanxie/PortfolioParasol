@@ -33,6 +33,7 @@ const StyledCardComponent = styled.div`
   }
 `;
 
+// Might need to update the url+"/blob/master/README.md" to whatever file the lab report should be in
 export default function StyledCard({ image, name, description, url, demo }) {
   return (
     <StyledCardComponent>
@@ -46,12 +47,10 @@ export default function StyledCard({ image, name, description, url, demo }) {
         <Card.Body className="overflow-auto text-center">
           <Card.Title>{name}</Card.Title>
           <Card.Text>{description}</Card.Text>
-          {demo !== "" && demo !== null ? (
-            <Card.Link href={demo}>
-              {"Live Demo "}
-              <Icon icon="icon-park-outline:code-computer" />
-            </Card.Link>
-          ) : null}
+          <Card.Link href={(url+"/blob/master/README.md")}> 
+            {"Lab Report"}
+            <Icon icon="icon-park-outline:code-computer" />
+          </Card.Link>
         </Card.Body>
         <Card.Footer className="text-center">
           <Card.Link href={url}>

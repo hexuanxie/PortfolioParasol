@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { selectData } from "../pages/homeSlice";
 import styled from "styled-components";
 // Data
-import { Blog } from "../data";
+import { Blog, linkedinURL } from "../data";
 // Icons
 import { Icon } from '@iconify/react';
 
@@ -30,6 +30,13 @@ export default function SocialLinks() {
           {Blog}
         </a>
       )}
+      <a
+        href={linkedinURL}
+        aria-label="Check out my Linkedin profile."
+        className="link-icons"
+      >
+        <Icon icon="icomoon-free:linkedin" />
+      </a>
     </StyledSocialLinks>
   );
 }

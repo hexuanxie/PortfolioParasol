@@ -26,6 +26,9 @@ export const navLogo = undefined;
 // Blog link icon - https://icon-sets.iconify.design/
 export const Blog = <Icon icon="ph:link-bold" />;
 
+// Linkedin URL --- TODO: Add your Linkedin URL HERE
+export const linkedinURL = "https://www.linkedin.com/";
+
 /* About Me
  **************************************************************
   Add a second paragraph for the about me section.
@@ -40,48 +43,18 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <Icon icon="mdi:language-html5" className="display-4" />,
-    name: "HTML5",
+    skill: <Icon icon="simple-icons:python" className="display-4" />,
+    name: "Python",
   },
   {
     id: 2,
-    skill: <Icon icon="ion:logo-css3" className="display-4" />,
-    name: "CSS3",
+    skill: <Icon icon="simple-icons:pytorch" className="display-4" />,
+    name: "PyTorch",
   },
   {
-    id: 3,
-    skill: <Icon icon="fa6-brands:js" className="display-4" />,
-    name: "JavaScript",
-  },
-  {
-    id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
-  },
-  {
-    id: 5,
-    skill: <Icon icon="mdi:react" className="display-4" />,
-    name: "React",
-  },
-  {
-    id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
-  },
-  {
-    id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
-  },
-  {
-    id: 8,
-    skill: <Icon icon="bi:git" className="display-4" />,
-    name: "Git",
-  },
-  {
-    id: 9,
-    skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
-    name: "GitHub",
+    id: 3, 
+    skill: <Icon icon="simple-icons:opencv" className="display-4" />,
+    name: "OpenCV",
   },
 ];
 
@@ -92,7 +65,8 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["wca", "example-2", "example-3"];
+export const filteredProjects = ["example-1", "example-2", "example-3"];
+
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [

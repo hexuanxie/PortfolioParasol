@@ -1,22 +1,8 @@
-# A React Portfolio Template for GitHub
+# A React Portfolio Template for Parasol Crash Course
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github)](https://github.com/mshuber1981/github-react-portfolio-template/stargazers/) [![GitHub Repo Forks](https://img.shields.io/github/forks/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github&label=Forks)](https://github.com/mshuber1981/github-react-portfolio-template/network/members)
+This template is a slightly modified version of mshuber1981's github portfolio template which can be found [here](https://github.com/mshuber1981/github-react-portfolio-template).
 
-A performant, accessible, progressive React portfolio template that uses the [GitHub REST API](https://docs.github.com/en/free-pro-team@latest/rest).
-
-Add your GitHub username once and all of your info will automatically be updated. Deploy to GitHub pages in a few simple steps.
-
-## [Live Demo](https://mshuber1981.github.io/github-react-portfolio-template/#/)
-
-[Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
-
-![Page Speed](/README_images/speed.png)
-
-## Light And Dark Themes
-
-![Hero Light](/README_images/hero.png)
-
-![Hero Dark](/README_images/heroDark.png)
+<!-- This section is caried over from the original github page. -->
 
 ### Getting Started
 
@@ -110,7 +96,25 @@ A helpful guide for Create React App deployments with GitHub Pages can be found 
    npm run deploy
    ```
 
+   **Note that you may not see the updated website live immediately after deploying. This is likely due to your browser caching the webpate and showing you an older version. To verify the changes are live, you can open a different browser and view the changes or check with running `npm start`.
+
+### Parasol Template Specifics
+
+In `data.js`, update the About Me Section by adding a personal bio. Replace "Add Bio Here" with your bio.
+
+   ```js
+   export const moreInfo =
+      "Add Bio Here"; // Replace with Bio
+   ```
+
+Additionally, you can add your linkedin profile link.
+   ```js
+   export const linkedinURL = "https://www.linkedin.com/"; // Add personal linkedin profile link here
+   ```
+
 ### Customization Options
+
+Feel Free to customize the images in the template to your liking. The following links should provide you with instructions on how to do so.
 
 Checkout the [Wiki](https://github.com/mshuber1981/github-react-portfolio-template/wiki) for additional customization options:
 
@@ -121,9 +125,3 @@ Checkout the [Wiki](https://github.com/mshuber1981/github-react-portfolio-templa
 - [Add a link to your resume](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Skills-section#add-a-link-to-your-resume)
 - [Updating the Navbar Logo](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Navbar-Logo)
 - [Including a Live Demo link on your project cards](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Including-a-Live-Demo-link-on-your-project-cards)
-
-[Back to top :top:](#a-react-portfolio-template-for-github)
-
-### License
-
-[MIT](https://choosealicense.com/licenses/mit/)
