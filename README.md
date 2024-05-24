@@ -84,6 +84,8 @@ This template is a slightly modified version of mshuber1981's github portfolio t
 
 A helpful guide for Create React App deployments with GitHub Pages can be found [here](https://create-react-app.dev/docs/deployment#github-pages).
 
+*Be sure to set the branch as `gh-pages` and directory as `/root` in the GitHub Pages settings.
+
 1. Update the homepage value ([package.json](https://github.com/mshuber1981/github-react-portfolio-template/blob/0133fcc02ab048fefcf73825d02385ffe27c3721/package.json#L3) line 3)
 
    ```json
