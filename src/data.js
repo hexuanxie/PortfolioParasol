@@ -27,14 +27,18 @@ export const navLogo = undefined;
 export const Blog = <Icon icon="ph:link-bold" />;
 
 // Linkedin URL --- TODO: Add your Linkedin URL HERE
-export const linkedinURL = "https://www.linkedin.com/";
+export const linkedinURL = "https://www.linkedin.com/in/lily-xie-b61811272/";
 
 /* About Me
  **************************************************************
   Add a second paragraph for the about me section.
 */
-export const moreInfo =
-  "Add Bio Here";
+export const moreInfo = "Currently I am an Illinois Computing Accelerator for Non-Specialists (iCAN) student"
++ "at the University of Illinois Urbana-Champaign (UIUC). "
++ "I got my bachelor degree from University of Illinois Urbana-Champaign in biology and neuroscience. "
++ "Research experience in nematodes. "
++ "Interested in computational biology and computational neuroscience.";
+
 
 /* Skills
  ************************************************************** 
@@ -48,14 +52,9 @@ export const skillData = [
   },
   {
     id: 2,
-    skill: <Icon icon="simple-icons:pytorch" className="display-4" />,
-    name: "PyTorch",
-  },
-  {
-    id: 3, 
-    skill: <Icon icon="simple-icons:opencv" className="display-4" />,
-    name: "OpenCV",
-  },
+    skill: <Icon icon="simple-icons:oracle" className="display-4" />,
+    name: "Java",
+  }
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
@@ -81,4 +80,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/xkndlwnk";
